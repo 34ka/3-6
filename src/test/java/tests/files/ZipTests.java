@@ -12,7 +12,7 @@ import static utils.FileUtils.readStringFromFile;
 public class ZipTests {
 
     @Test
-    void verifyContentInTxtTest() {
+    void verifyContentInZipTest() {
 //Класс, который помогает считывать в файле информацию вспомогательный класс для считывания FileUtils.java
         String source = "src/test/resources/html/1.zip";
         String destination = "src/test/resources/html/unzip";
