@@ -16,7 +16,7 @@ import static utils.FileUtils.readStringFromFile;
 public class PdfTests {
 
     @Test
-    void verifyContentInTxtTest() throws IOException {
+    void verifyContentInPdfTest() throws IOException {
 //Класс, который помогает считывать в файле информацию вспомогательный класс для считывания FileUtils.java
         String actualFilePath = "src/test/resources/html/1.pdf";
         String expectedFileText = "Центральная тема";
